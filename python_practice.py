@@ -10,6 +10,9 @@ for i in range(len(l1)):
     carry = total // 10
     l3.append(digit)
 
+if carry:
+    l3.append(carry)
+
 print(l3)
 
 
